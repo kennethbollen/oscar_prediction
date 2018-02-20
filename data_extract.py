@@ -16,7 +16,7 @@ for i in range(num_pages):
 	  try:
 	    x = 'imdb.com' + link.a['href']
 	    x.strip(' ')
-	    film_site.append(x)
+	    film_sites.append(x)
 	  except TypeError:
 	    continue
 	#get film names
